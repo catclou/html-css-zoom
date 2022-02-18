@@ -3,5 +3,98 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    color: white;
 }
 /* reset ends here */
+
+/* main stuff */
+
+main {
+    height: 90vh;
+    background-color: black;
+}
+
+/* footer stuff */
+
+footer {
+    height: 10vh;
+    background-color: rgb(75, 69, 69);
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* audio-video stuff */
+
+.audio-video, .share-screen {
+    border: 1px solid white;
+    display: flex;
+}
+
+.mute-container, 
+.stop-video-container, 
+.invite-container,
+.manage-participants-container,
+.polling-container,
+.share-screen-container,
+.chat-container,
+.record-container,
+.breakout-rooms-container,
+.more-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.fa-angle-up {
+    padding: 5px;
+}
+
+.fa-angle-up {
+    align-self: center;
+}
+
+.fa-microphone, 
+.mute-text, 
+.fa-video, 
+.fa-user-plus,
+.fa-user-group,
+.fa-square-poll-vertical,
+.fa-share-from-square,
+.fa-comment,
+.fa-record-vinyl,
+.fa-table-cells-large,
+.fa-ellipsis {
+    align-items: center;
+    align-self: center;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+.mute, 
+.stop-video {
+    display: flex;
+}
+
+    /* options stuff */
+
+.options {
+    display: flex;
+    border: 1px solid sandybrown;
+}
+
+    /* end meeting stuff */
+
+.end-meeting { 
+    border: 1px solid turquoise;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.end-meeting-text {
+    color: red;
+    padding: 5px;
+}
